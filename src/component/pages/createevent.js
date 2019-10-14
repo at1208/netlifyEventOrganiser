@@ -33,7 +33,7 @@ class CreateEvent extends Component {
     CreateNewEvent = (e) => {
        e.preventDefault()
           const createnewevent = "http://localhost:4000/createEvent"
-          fetch(createnewevent, {
+          fetch("https://eveorg.herokuapp.com/createEvent", {
               method: "POST",
               headers: {
                 Accept: "application/json",

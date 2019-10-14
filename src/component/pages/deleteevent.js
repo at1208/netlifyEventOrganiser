@@ -9,7 +9,7 @@ class DeleteEvent extends Component {
   DeleteEvent = (e) => {
      e.preventDefault()
         const deleteevent = `http://localhost:4000/deleteEvent/${this.state._id}`
-        fetch(deleteevent, {
+        fetch(`https://eveorg.herokuapp.com/deleteEvent/${this.state._id}`, {
             method: "DELETE",
             headers: {
               Accept: "application/json",

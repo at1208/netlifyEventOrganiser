@@ -33,7 +33,7 @@ class UpdateEvent extends Component {
     UpdateEvent = (e) => {
        e.preventDefault()
           const updateevent = `http://localhost:4000/updateEvent/${this.state._id}`
-          fetch( updateevent, {
+          fetch(`https://eveorg.herokuapp.com/updateEvent/${this.state._id}`, {
               method: "PUT",
               headers: {
                 Accept: "application/json",

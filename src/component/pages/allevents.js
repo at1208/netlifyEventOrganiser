@@ -10,7 +10,7 @@ class AllEvent extends Component {
 
 componentDidMount(){
   const seedetails = "http://localhost:4000/allEvents"
-  fetch(seedetails).then(res => {
+  fetch("https://eveorg.herokuapp.com/allEvents").then(res => {
             if (res.ok) {
               return res.json();
             } else {
