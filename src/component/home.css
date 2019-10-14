@@ -1,0 +1,23 @@
+.a1{
+  background-color: #ff4081;
+  height: 100px;
+  padding: 20px;
+  color: white;
+  font-weight: lighter;
+
+}
+h1{
+  margin-bottom: 0px;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.a2{
+width: 150px;
+margin: 5px;
+}
+.btn{
+  border-radius: 0px;
+}
